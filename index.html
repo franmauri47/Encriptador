@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1 class="titulo">Encriptador</h1>            
+            </div>        
+        </header>
+
+        <main>
+            <ul class="textArea">
+                <li class="inputText">
+                    <textarea class="cuadroDeTexo" id="cuadroInput" rows="10" cols="20" placeholder="Ingrese aquí el texto sin caracteres especiales ni acentos."></textarea>                
+                </li>
+                <li class="outputText">
+                    <textarea class="cuadroDeTexo" id="cuadroOutput" disabled rows="10" cols="20"></textarea> 
+                </li>
+            </ul>
+
+            <div class="areaButtons">
+                <button class="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                <button class="button" id="botonDesencriptar" onclick="desencriptar()">Descencriptar</button>
+                <button class="button" id="botonCopiar" onclick="copiarTexto()">Copiar Texto</button>
+            </div>        
+        </main>
+
+        <footer>  
+            <img src="/imagenes/lambda.png">            
+            <p class="copyright"> &copy Copyright Francisco Mauri 2022</p>
+            <div class="contacto">
+                <p>Contacto</p>
+                <ul class="logos">
+                    <li id="instagram"> 
+                        <a href="https://www.instagram.com/fran_mauri/" target="_blank"><img src="imagenes/instagram.png"></a>
+                    </li>
+                </ul>
+            </div>                     
+        </footer>
+            
+        <script src="script.js"></script>
+    </body>
+</html>

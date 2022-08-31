@@ -1,0 +1,120 @@
+body{
+    background-image: url(imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;     
+}
+
+.titulo{
+    padding-top: 2%;
+    font-size: 70px;    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    color: greenyellow;    
+    text-decoration:underline;
+}
+
+.textArea{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;    
+    padding-top: 4%;
+}
+
+.inputText{
+    display: inline-block;
+}
+
+.outputText{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.cuadroDeTexo{
+    resize: none;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: x-large;
+    background-color: black;        
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;    
+    border-color: greenyellow;
+    border-width: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    color: greenyellow;    
+}
+
+.outputText textarea{
+    background-image: url(candado.png); 
+    background-repeat:no-repeat;
+    background-size: 100px;    
+}
+
+.areaButtons{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 3% 0 2%;    
+}
+
+.button:hover{
+    border-color: white;
+    color: white;
+}
+
+.button:active{
+    font-size: 18px;    
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    border-radius: 30px;
+    border-color: greenyellow;
+    border-width: 1px;
+}
+
+#botonDesencriptar{     
+    margin-left: 30px;   
+}
+
+#botonCopiar{    
+    margin: 0 0 0 35%;   
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+.copyright{ 
+    margin: 20px 0 10px 0;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.contacto {
+    font-weight: bolder;
+    text-decoration: underline;    
+}
+
+.logos{
+    margin-top: 10px;
+    display: inline-block;
+}
