@@ -7,6 +7,9 @@
         <title>Encriptador</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -17,14 +20,14 @@
         </header>
 
         <main>
-            <ul class="textArea">
-                <li class="inputText">
+            <section class="textArea">
+                <div class="inputText">
                     <textarea class="cuadroDeTexo" id="cuadroInput" rows="10" cols="20" placeholder="Ingrese aquí el texto sin caracteres especiales ni acentos."></textarea>                
-                </li>
-                <li class="outputText">
+                </div>
+                <div class="outputText">
                     <textarea class="cuadroDeTexo" id="cuadroOutput" disabled rows="10" cols="20"></textarea> 
-                </li>
-            </ul>
+                </div>
+            </section>
 
             <div class="areaButtons">
                 <button class="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>

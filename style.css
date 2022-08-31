@@ -2,6 +2,11 @@ body{
     background-image: url(imagenes/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+main{
+    padding-bottom: 10%;
 }
 
 .caja{
@@ -14,7 +19,6 @@ body{
 .titulo{
     padding-top: 2%;
     font-size: 70px;    
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 550;
     color: greenyellow;    
     text-decoration:underline;
@@ -24,7 +28,7 @@ body{
     width: 940px;
     position: relative;
     margin: 0 auto;    
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
 .inputText{
@@ -39,23 +43,22 @@ body{
 .cuadroDeTexo{
     resize: none;
     border-radius: 30px;
-    padding: 12px;
-    font-size: x-large;
+    padding: 12px 15%;
+    font-size: xx-large;
     background-color: black;        
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;    
     border-color: greenyellow;
-    border-width: 2px;
-    font-family: 'Courier New', Courier, monospace;
+    border-width: 2px;    
     font-weight:bold;
     color: greenyellow;    
 }
 
 .outputText textarea{
-    background-image: url(candado.png); 
+    background-image: url(/imagenes/candado.png); 
     background-repeat:no-repeat;
-    background-size: 100px;    
+    background-size: 80px;    
 }
 
 .areaButtons{
@@ -78,12 +81,15 @@ body{
     height: 40px;
     width: 150px;
     background-color: black;
-    color: greenyellow;
-    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;    
     font-size:medium;
     border-radius: 30px;
     border-color: greenyellow;
     border-width: 1px;
+}
+
+#botonEncriptar{
+    margin-left: 4%;
 }
 
 #botonDesencriptar{     
@@ -91,14 +97,13 @@ body{
 }
 
 #botonCopiar{    
-    margin: 0 0 0 35%;   
+    margin: 0 0 0 31%;   
 }
 
 footer {
     position: relative;
     text-align: center;
     padding: 30px;
-    margin-top: 80px;
     background-color: aliceblue;
     opacity: 0.7;
 }
