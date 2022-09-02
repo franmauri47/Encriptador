@@ -56,7 +56,7 @@ main{
 }
 
 .outputText textarea{
-    background-image: url(/imagenes/candado.png); 
+    background-image: url(/imagenes/fondo-output.png); 
     background-repeat:no-repeat;
     background-size: 80px;    
 }
@@ -108,15 +108,18 @@ footer {
     opacity: 0.7;
 }
 
+footer img{
+    width: 5%;
+}
+
 .copyright{ 
     margin: 20px 0 10px 0;
-    font-weight: bolder;
-    font-size: medium;
+    font-size:smaller;
 }
 
 .contacto {
-    font-weight: bolder;
     text-decoration: underline;    
+    font-size: smaller;
 }
 
 .logosContacto{

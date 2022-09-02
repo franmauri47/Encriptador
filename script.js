@@ -20,7 +20,7 @@ function encriptar(){
     let textoEncriptado = "";
 
     if (textoIntroducido.trim() == "") {
-        alert("Primero introduzca un mensaje");        
+        alert("Por favor, introduzca un mensaje primero.");        
     } 
     else {
         for(let i=0; i<textoIntroducidoArray.length; i++){
@@ -29,7 +29,7 @@ function encriptar(){
                 output.style.backgroundImage = "none";
             } 
             else {                
-                alert("Por favor, introducir mensaje sin caracteres especiales, acentos ni espacio inicial");
+                alert("Por favor, introducir mensaje sin caracteres especiales ni acentos.");
                 textoEncriptado = "";
                 break;
             }
@@ -54,7 +54,7 @@ function desencriptar(){
             } 
             else {
                 textoDesencriptado = "";
-                alert("Por favor, introducir mensaje sin caracteres especiales, acentos ni espacio inicial");
+                alert("Por favor, introducir mensaje sin caracteres especiales ni acentos.");
                 break;
             }
         }
@@ -67,7 +67,7 @@ function copiarTexto(){
     let resultado = document.getElementById("cuadroOutput");
 
     if (resultado.innerHTML.trim() == "") {
-        alert("Primero debe ingresar un mensaje");
+        alert("Primero debe encriptar/desencriptar un mensaje");
     } 
     else {
         navigator.clipboard.writeText(resultado.innerHTML);
