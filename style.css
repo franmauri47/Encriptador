@@ -18,32 +18,36 @@ main{
 
 .titulo{
     padding-top: 2%;
+    margin-left: 3%;
     font-size: 70px;    
     font-weight: 550;
     color: greenyellow;    
-    text-decoration:underline;
+    text-decoration:underline;    
 }
 
 .textArea{
-    width: 940px;
+    width: 100%;
     position: relative;
     margin: 0 auto;    
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .inputText{
     display: inline-block;
+    width: 45%;
+    margin: 0 0 0 13%;
 }
 
 .outputText{
     display: inline-block;
-    margin-left: 25%;
+    margin-left: 0;
+    width: 40%;
 }
 
 .cuadroDeTexo{
     resize: none;
     border-radius: 30px;
-    padding: 12px 15%;
+    padding: 12px 5%;
     font-size: xx-large;
     background-color: black;        
     background-repeat: no-repeat;
@@ -53,28 +57,13 @@ main{
     border-width: 2px;    
     font-weight:bold;
     color: greenyellow;    
+    display: block;
 }
 
 .outputText textarea{
     background-image: url(/imagenes/fondo-output.png); 
     background-repeat:no-repeat;
     background-size: 80px;    
-}
-
-.areaButtons{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-    padding: 3% 0 2%;    
-}
-
-.button:hover{
-    border-color: white;
-    color: white;
-}
-
-.button:active{
-    font-size: 18px;    
 }
 
 .button{
@@ -86,18 +75,20 @@ main{
     border-radius: 30px;
     border-color: greenyellow;
     border-width: 1px;
+    margin: 5% 0 0 3.5%;
 }
 
-#botonEncriptar{
-    margin-left: 4%;
+.button:hover{
+    border-color: white;
+    color: white;
 }
 
-#botonDesencriptar{     
-    margin-left: 30px;   
+.button:active{
+    font-size: 18px;    
 }
 
-#botonCopiar{    
-    margin: 0 0 0 31%;   
+#botonCopiar{
+    margin-left: 20%;
 }
 
 footer {
@@ -132,4 +123,40 @@ footer img{
 
 .logo{
     width: 50px;
+}
+
+@media screen and (max-width:480px){
+    .caja {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .textArea{
+        margin-top: 10%;
+    }
+
+    .titulo{
+        width: 70%;
+        font-size: 60px;        
+    }
+
+    .inputText{
+        display: block;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .outputText{
+        margin: 10% 0 0 10%;
+        width: 100%;
+    }
+
+    .button{
+        width: 120px;
+        margin: 5% 0 0 8%;
+    }
+
+    #botonCopiar{
+        margin: 10% 0 0 25%;
+    }
 }

@@ -23,17 +23,15 @@
             <section class="textArea">
                 <div class="inputText">
                     <textarea class="cuadroDeTexo" id="cuadroInput" rows="10" cols="20" placeholder="Ingrese aquí el texto sin caracteres especiales ni acentos."></textarea>                
+                    <button class="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="button" id="botonDesencriptar" onclick="desencriptar()">Descencriptar</button>
                 </div>
                 <div class="outputText">
                     <textarea class="cuadroDeTexo" id="cuadroOutput" disabled rows="10" cols="20"></textarea> 
+                    <button class="button" id="botonCopiar" onclick="copiarTexto()">Copiar Texto</button>
                 </div>
             </section>
-
-            <div class="areaButtons">
-                <button class="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
-                <button class="button" id="botonDesencriptar" onclick="desencriptar()">Descencriptar</button>
-                <button class="button" id="botonCopiar" onclick="copiarTexto()">Copiar Texto</button>
-            </div>        
+       
         </main>
 
         <footer>  
