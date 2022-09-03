@@ -71,7 +71,7 @@ function copiarTexto(){
     } 
     else {
         navigator.clipboard.writeText(resultado.innerHTML);
-        alert("Resultado copiado!");
+        alert("Texto copiado!");
     }
     input.focus();
 }

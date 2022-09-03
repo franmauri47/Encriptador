@@ -17,8 +17,16 @@
             <h1 class="titulo">Encriptador</h1>
         </header>
         <main>
-            <section class="cuadrosDeTexto">
-                <textarea cols="30" rows="10"></textarea>
+            <section class="interfazEncriptador">
+                <div class="entradaDeTexto">
+                    <textarea id="cuadroInput" cols="30" rows="10" placeholder="Ingrese aquí el texto sin caracteres especiales ni acentos."></textarea>
+                    <button onclick="encriptar()">Encriptar</button>
+                    <button onclick="desencriptar()">Desencriptar</button>
+                </div>
+                <div class="textoProcesado">
+                    <textarea id="cuadroOutput" cols="30" rows="10"></textarea>
+                    <button onclick="copiarTexto()">Copiar texto</button>
+                </div>                
             </section>
         </main>
         <footer>  
